@@ -9,10 +9,10 @@ public class MySQLBridge {
 	PreparedStatement stmt;
 	Connection conn;
 	public static String dbname = "rippy";
-	String url = "jdbc:mysql://144.202.27.226:3306/"+dbname+"?autoReconnect=true&useSSL=false&serverTimezone=CET#/information_schema";
-	String servername = "144.202.27.226";
-	String username = "rippy_adm_j";
-	String password = "battle123@";
+	String url = "jdbc:mysql://144.204.27.226:3306/"+dbname+"?autoReconnect=true&useSSL=false&serverTimezone=CET#/information_schema";
+	String servername = "144.204.27.226";
+	String username = "xyz";
+	String password = "xyz";
 	
 	boolean verbose = false;
 	
